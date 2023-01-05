@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+}
+
+header {
+    background: #FFF8F3;
+    background-image: url(/images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* header and navigation style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 51px;
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    /* background-color: aquamarine; */
+}
+
+.first-width>h3 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.first-width>h1 {
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.first-width>p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.Second-width {
+    /* width: 200px; */
+}
