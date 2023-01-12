@@ -22,7 +22,7 @@
     background-color: #FD6E0A;
 }
 
-header {
+.header {
     background: #FFF8F3;
     background-image: url(/images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
@@ -184,3 +184,56 @@ main {
     margin-top: 50px;
     text-align: center;
 }
+
+/* Responsive styles  */
+/* ------------- */
+
+@media screen and (max-width: 576px) {
+    .header {
+        background-image: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .banner img {
+        width: 80%;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav,
+    .resume-content {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .about {
+        padding: 20px;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {}
+
+/* .hide {
+    display: none;
+} */
